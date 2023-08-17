@@ -1,0 +1,25 @@
+T1	ENTITY 27 69	A 500-mL, one-necked, round-bottomed flask
+T2	ENTITY 134 169	benzoyl peroxide (12.11 g, 50 mmol)
+T3	ENTITY 171 220	dipotassium hydrogen phosphate (13.06 g, 75 mmol)
+T4	ENTITY 226 256	N,N-dimethylformamide (125 mL)
+T5	ENTITY 258 272	The suspension
+T6	ENTITY 288 319	morpholine (5.20 mL, 59.4 mmol)
+T8	ENTITY 395 409	the suspension
+T21	REACTION_STEP 121 128	charged
+T22	REACTION_STEP 276 283	stirred
+T23	REACTION_STEP 323 328	added
+T25	REACTION_STEP 413 420	stirred
+T33	MODIFIER 341 355	in one portion
+T34	TEMPERATURE 424 443	ambient temperature
+T35	TIME 448 451	1 h
+T1000	B_Workup 548 557	Deionized
+R0	ARG1 Arg1:T21 Arg2:T1
+R1	ARG2 Arg1:T21 Arg2:T2
+R2	ARG2 Arg1:T21 Arg2:T3
+R3	ARG2 Arg1:T21 Arg2:T4
+R4	ARG1 Arg1:T22 Arg2:T5
+R5	ARG1 Arg1:T23 Arg2:T6
+R6	ARGM Arg1:T23 Arg2:T33
+R8	ARG1 Arg1:T25 Arg2:T8
+R9	ARGM Arg1:T25 Arg2:T34
+R10	ARGM Arg1:T25 Arg2:T35

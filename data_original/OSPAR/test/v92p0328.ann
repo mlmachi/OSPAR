@@ -1,0 +1,32 @@
+T1	REACTION_STEP 249 255	cooled
+T2	TEMPERATURE 259 263	0 °C
+T3	REACTION_STEP 493 499	heated
+T4	TEMPERATURE 503 509	reflux
+T5	TIME 566 570	16 h
+T10	REACTION_STEP 152 157	added
+T11	ENTITY 158 232	maleic anhydride (10.9 g, 111 mmol, 1.0 equiv) in deionized water (370 mL)
+T12	REACTION_STEP 419 424	added
+T13	ENTITY 367 414	glacial acetic acid (8 mL, 140 mmol, 1.2 equiv)
+T14	ENTITY 300 362	benzenesulfinic acid sodium salt (20.0 g, 122 mmol, 1.1 equiv)
+T25	ENTITY 234 245	The mixture
+T27	ENTITY 477 489	the reaction
+T7	ENTITY 44 83	a 1-L three-necked round-bottomed flask
+T8	TEMPERATURE 538 544	110 °C
+T9	TEMP_TARGET 526 535	bath temp
+T15	ENTITY 267 284	an ice-water bath
+T16	ENTITY 513 524	an oil bath
+T18	REACTION_STEP 546 550	open
+T1000	B_Workup 572 575	The
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T3 Arg2:T4
+R3	ARGM Arg1:T3 Arg2:T5
+R6	ARG1 Arg1:T10 Arg2:T11
+R7	ARG1 Arg1:T12 Arg2:T13
+R8	ARG1 Arg1:T12 Arg2:T14
+R4	ARG2 Arg1:T10 Arg2:T7
+R5	ARG1 Arg1:T1 Arg2:T25
+R9	ARG1 Arg1:T3 Arg2:T27
+R11	ARGM Arg1:T3 Arg2:T8
+R12	ARG2 Arg1:T1 Arg2:T15
+R10	ARG2 Arg1:T3 Arg2:T16
+R13	ARG1 Arg1:T18 Arg2:T27

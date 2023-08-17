@@ -1,0 +1,49 @@
+T1	ENTITY 63 107	A 500-mL, three-necked, round-bottomed flask
+T2	ENTITY 296 304	nitrogen
+T3	ENTITY 324 374	1-trimethylsilyloxycyclopentene (20.8 g, 133 mmol)
+T4	ENTITY 376 392	hexanes (208 mL)
+T5	ENTITY 398 450	triethylamine (22.3 mL, 16.2 g, 160 mmol, 1.2 equiv)
+T6	ENTITY 452 471	The addition funnel
+T7	ENTITY 488 504	hexanes (100 mL)
+T8	ENTITY 509 571	dichloroacetyl chloride (12.8 mL, 19.6 g, 133 mmol, 1.0 equiv)
+T9	ENTITY 577 590	this solution
+T10	ENTITY 612 651	the vigorously stirred reaction mixture
+T11	ENTITY 879 889	The slurry
+T13	ENTITY 982 1086	An additional portion of dichloroacetyl chloride (1.5 mL, 2.3 g, 16 mmol, 0.12 equiv) in 3 mL of hexanes
+T14	ENTITY 1099 1119	the reaction mixture
+T21	REACTION_STEP 284 290	purged
+T22	REACTION_STEP 311 318	charged
+T23	REACTION_STEP 475 482	charged
+T24	REACTION_STEP 594 599	added
+T25	REACTION_STEP 893 900	stirred
+T26	REACTION_STEP 1090 1095	added
+T31	MODIFIER 600 608	dropwise
+T33	TEMP_TARGET 703 723	internal temperature
+T34	TEMPERATURE 724 735	below 30 °C
+T35	TIME 759 768	30-40 min
+T36	TIME 905 909	12 h
+T37	TIME 1151 1154	1 h
+T15	REACTION_STEP 627 634	stirred
+T16	MODIFIER 616 626	vigorously
+T12	MODIFIER 687 695	stirring
+R0	ARG1 Arg1:T21 Arg2:T1
+R1	ARG2 Arg1:T21 Arg2:T2
+R3	ARG1 Arg1:T22 Arg2:T1
+R5	ARG2 Arg1:T22 Arg2:T3
+R6	ARG2 Arg1:T22 Arg2:T4
+R7	ARG2 Arg1:T22 Arg2:T5
+R8	ARG2 Arg1:T23 Arg2:T7
+R9	ARG2 Arg1:T23 Arg2:T8
+R10	ARG1 Arg1:T24 Arg2:T9
+R11	ARG2 Arg1:T24 Arg2:T10
+R12	ARGM Arg1:T24 Arg2:T31
+R13	ARGM Arg1:T24 Arg2:T34
+R14	ARG1 Arg1:T25 Arg2:T11
+R15	ARGM Arg1:T25 Arg2:T36
+R16	ARG1 Arg1:T26 Arg2:T13
+R17	ARG2 Arg1:T26 Arg2:T14
+R2	ARG1 Arg1:T23 Arg2:T6
+R18	ARGM Arg1:T15 Arg2:T16
+R19	ARGM Arg1:T24 Arg2:T33
+R20	ARGM Arg1:T24 Arg2:T35
+R4	ARGM Arg1:T24 Arg2:T12

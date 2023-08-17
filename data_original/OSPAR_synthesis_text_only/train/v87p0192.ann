@@ -1,0 +1,31 @@
+T1	REACTION_STEP 513 519	heated
+T2	TEMPERATURE 530 536	reflux
+T17	REACTION_STEP 121 128	charged
+T19	ENTITY 134 203	trans-4-methoxy-3-buten-2-one (15.3 mL, 15.0 g, 0.135 mol, 1.0 equiv)
+T20	ENTITY 227 250	deionized water (30 mL)
+T21	ENTITY 205 221	ethanol (120 mL)
+T22	REACTION_STEP 351 356	added
+T23	ENTITY 279 347	Glacial acetic acid (17.5 M, 0.9 mL, 0.944 g, 0.015 mol, 0.11 equiv)
+T31	ENTITY 0 44	A single-necked, 250-mL round-bottomed flask
+T36	ENTITY 455 509	the resulting homogeneous pale yellow reaction mixture
+T53	TIME 557 561	48 h
+T54	TEMPERATURE 619 624	77 °C
+T18	MODIFIER 543 551	stirring
+T3	MODIFIER 520 526	gently
+T4	MODIFIER 274 277	air
+T5	ENTITY 372 392	the reaction mixture
+T6	TEMP_TARGET 595 607	the oil bath
+R1	ARGM Arg1:T1 Arg2:T2
+R11	ARG2 Arg1:T17 Arg2:T19
+R12	ARG2 Arg1:T17 Arg2:T20
+R13	ARG2 Arg1:T17 Arg2:T21
+R14	ARG1 Arg1:T22 Arg2:T23
+R20	ARG1 Arg1:T17 Arg2:T31
+R10	ARG1 Arg1:T1 Arg2:T36
+R21	ARGM Arg1:T1 Arg2:T18
+R22	ARGM Arg1:T1 Arg2:T53
+R23	ARGM Arg1:T1 Arg2:T54
+R2	ARGM Arg1:T1 Arg2:T3
+R3	ARGM Arg1:T17 Arg2:T4
+R4	ARG2 Arg1:T22 Arg2:T5
+R5	ARGM Arg1:T1 Arg2:T6

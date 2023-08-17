@@ -1,0 +1,28 @@
+T1	REACTION_STEP 356 363	stirred
+T2	TIME 368 373	5 min
+T3	TEMPERATURE 377 382	22 °C
+T4	REACTION_STEP 465 472	stirred
+T5	TEMPERATURE 476 481	22 °C
+T6	TIME 486 490	64 h
+T25	REACTION_STEP 172 179	charged
+T26	ENTITY 185 257	methyl (tert-butoxycarbonyl)-glycinate 1 (6.80 g, 36.0 mmol, 1.20 equiv)
+T27	ENTITY 262 279	methanol (225 mL)
+T28	REACTION_STEP 330 335	added
+T29	ENTITY 281 326	1-Amino pyridinium iodide (6.67 g, 30.0 mmol)
+T30	REACTION_STEP 439 444	added
+T31	ENTITY 384 435	Potassium carbonate (9.95 g, 72.0 mmol, 2.40 equiv)
+T49	ENTITY 63 107	A 500 mL single-necked, round-bottomed flask
+T50	ENTITY 340 352	the reaction
+T51	ENTITY 449 461	the reaction
+T1000	B_Workup 642 647	After
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T1 Arg2:T3
+R3	ARGM Arg1:T4 Arg2:T5
+R4	ARGM Arg1:T4 Arg2:T6
+R16	ARG2 Arg1:T25 Arg2:T26
+R17	ARG2 Arg1:T25 Arg2:T27
+R18	ARG1 Arg1:T28 Arg2:T29
+R19	ARG1 Arg1:T30 Arg2:T31
+R5	ARG1 Arg1:T25 Arg2:T49
+R6	ARG1 Arg1:T1 Arg2:T50
+R7	ARG1 Arg1:T4 Arg2:T51

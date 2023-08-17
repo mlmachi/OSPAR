@@ -1,0 +1,22 @@
+T2	ENTITY 213 222	The flask
+T3	ENTITY 244 282	trans-2-hexen-1-ol (3.3 mL, 27.8 mmol)
+T4	ENTITY 284 344	1,8-diazabicyclo[5.4.0]undec-7-ene (DBU) (0.84 mL, 5.6 mmol)
+T5	ENTITY 349 377	170 mL of methylene chloride
+T6	ENTITY 379 391	The solution
+T7	ENTITY 416 433	an ice/water bath
+T8	ENTITY 441 480	trichloroacetonitrile (4.2 mL, 42 mmol)
+T12	REACTION_STEP 231 238	charged
+T13	REACTION_STEP 395 401	cooled
+T14	REACTION_STEP 484 489	added
+T19	TEMPERATURE 405 409	4 °C
+T20	TIME 495 507	five minutes
+T21	TIME 617 623	1 hour
+R2	ARG1 Arg1:T12 Arg2:T2
+R3	ARG2 Arg1:T12 Arg2:T3
+R4	ARG2 Arg1:T12 Arg2:T4
+R5	ARG2 Arg1:T12 Arg2:T5
+R6	ARG1 Arg1:T13 Arg2:T6
+R7	ARG2 Arg1:T13 Arg2:T7
+R8	ARGM Arg1:T13 Arg2:T19
+R9	ARG1 Arg1:T14 Arg2:T8
+R10	ARGM Arg1:T14 Arg2:T20

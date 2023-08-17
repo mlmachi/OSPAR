@@ -1,0 +1,42 @@
+T1	ENTITY 102 159	a dedicated 20-mL one-necked Pyrex microwave process vial
+T2	ENTITY 199 219	10 mL of dry ethanol
+T3	ENTITY 221 273	triethylamine (981 μL, 712 mg, 7.04 mmol, 1.6 equiv)
+T4	ENTITY 275 333	5-phenyl-1H-pyrazol-3-amine (700 mg, 4.40 mmol, 1.0 equiv)
+T5	ENTITY 338 401	5,5-dimethyl-1,3-cyclohexanedione (617 mg, 4.40 mmol, 1.0 equiv
+T8	ENTITY 504 557	p-Tolualdehyde (519 μL, 529 mg, 4.40 mmol, 1.0 equiv)
+T9	ENTITY 573 590	The reaction vial
+T11	ENTITY 815 823	the vial
+T30	REACTION_STEP 407 412	added
+T31	REACTION_STEP 417 424	stirred
+T32	REACTION_STEP 566 571	added
+T34	REACTION_STEP 666 677	transferred
+T36	REACTION_STEP 827 833	cooled
+T50	MODIFIER 425 435	vigorously
+T51	TIME 440 445	2 min
+T52	TEMPERATURE 449 465	room temperature
+T53	TEMPERATURE 749 755	150 °C
+T54	TIME 760 766	30 min
+T55	TEMPERATURE 842 847	50 °C
+T56	TIME 901 906	5 min
+T1000	B_Workup 979 984	After
+T6	ENTITY 681 720	a Biotage single-mode microwave reactor
+R0	ARG2 Arg1:T30 Arg2:T1
+R1	ARG1 Arg1:T30 Arg2:T2
+R2	ARG1 Arg1:T30 Arg2:T3
+R9	ARGM Arg1:T31 Arg2:T50
+R10	ARGM Arg1:T31 Arg2:T51
+R11	ARGM Arg1:T31 Arg2:T52
+R12	ARG1 Arg1:T32 Arg2:T8
+R14	ARG1 Arg1:T34 Arg2:T9
+R15	ARGM Arg1:T34 Arg2:T53
+R16	ARGM Arg1:T34 Arg2:T54
+R18	ARG1 Arg1:T36 Arg2:T11
+R19	ARGM Arg1:T36 Arg2:T55
+R20	ARGM Arg1:T36 Arg2:T56
+R21	ARG1 Arg1:T30 Arg2:T5
+R7	ARG1 Arg1:T31 Arg2:T2
+R22	ARG1 Arg1:T31 Arg2:T3
+R23	ARG1 Arg1:T31 Arg2:T4
+R24	ARG1 Arg1:T31 Arg2:T5
+R25	ARG1 Arg1:T30 Arg2:T4
+R3	ARG2 Arg1:T34 Arg2:T6

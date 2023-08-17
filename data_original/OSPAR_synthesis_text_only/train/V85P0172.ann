@@ -1,0 +1,17 @@
+T1	REACTION_STEP 520 525	added
+T2	TIME 559 567	two days
+T3	REACTION_STEP 624 631	stirred
+T4	TIME 650 653	8 h
+T9	REACTION_STEP 295 300	added
+T10	ENTITY 358 413	2-bromopropene (18.5 mL, 25.2 g, 0.208 mol, 2.18 equiv)
+T11	ENTITY 301 345	Rh2(OAc)4 (47.4 mg, 0.214 mmol Rh, 0.2 mol%)
+T12	ENTITY 457 516	ethyl diazoacetate (11.0 mL, 11.1 g, 95.2 mmol, 1.00 equiv)
+T25	ENTITY 600 620	the reaction mixture
+T20	ENTITY 281 291	this flask
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T3 Arg2:T4
+R5	ARG1 Arg1:T9 Arg2:T10
+R6	ARG1 Arg1:T9 Arg2:T11
+R7	ARG1 Arg1:T1 Arg2:T12
+R10	ARG2 Arg1:T9 Arg2:T20
+R3	ARG1 Arg1:T3 Arg2:T25

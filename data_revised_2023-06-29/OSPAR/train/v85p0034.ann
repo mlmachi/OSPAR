@@ -1,0 +1,26 @@
+T1	REACTION_STEP 448 454	heated
+T2	TEMPERATURE 458 464	reflux
+T3	TIME 491 494	3 h
+T6	REACTION_STEP 128 135	charged
+T7	ENTITY 259 321	a catalytic amount of concentrated HCl (approximately 0.05 mL)
+T8	ENTITY 238 254	toluene (150 mL)
+T9	ENTITY 193 236	mesitylamine (13.52 g, 100 mmol, 1.0 equiv)
+T10	ENTITY 141 191	3-hydroxybutan-2-one (13.2 g, 150 mmol, 1.5 equiv)
+T12	REACTION_STEP 522 531	collected
+T13	ENTITY 503 508	water
+T17	ENTITY 32 76	A 250-mL, single-necked round-bottomed flask
+T20	ENTITY 432 444	The solution
+T4	ENTITY 535 554	the Dean-Stark trap
+T11	ENTITY 468 486	a silicon oil bath
+T1000	B_Workup 569 572	The
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T1 Arg2:T3
+R4	ARG2 Arg1:T6 Arg2:T7
+R5	ARG2 Arg1:T6 Arg2:T8
+R6	ARG2 Arg1:T6 Arg2:T9
+R7	ARG2 Arg1:T6 Arg2:T10
+R9	ARG1 Arg1:T12 Arg2:T13
+R11	ARG1 Arg1:T6 Arg2:T17
+R12	ARG1 Arg1:T1 Arg2:T20
+R3	ARG2 Arg1:T12 Arg2:T4
+R10	ARG2 Arg1:T1 Arg2:T11

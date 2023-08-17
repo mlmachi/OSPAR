@@ -1,0 +1,33 @@
+T1	REACTION_STEP 332 340	stirring
+T2	TIME 345 350	5 min
+T3	REACTION_STEP 427 432	added
+T4	TEMPERATURE 490 517	ambient temperature (23 °C)
+T6	REACTION_STEP 543 549	warmed
+T7	TEMPERATURE 553 558	40 °C
+T17	REACTION_STEP 227 234	charged
+T19	ENTITY 240 289	phenylpyruvic acid (4.75 g, 28.9 mmol, 1.0 equiv)
+T20	ENTITY 294 324	N,N-dimethylformamide (289 mL)
+T21	ENTITY 352 423	N-hydroxy-(S)-1-phenylethylamine oxalate (9.20 g, 40.5 mmol, 1.4 equiv)
+T22	REACTION_STEP 578 585	stirred
+T59	ENTITY 41 86	A 500-mL, single-necked, round-bottomed flask
+T61	ENTITY 436 460	the homogeneous solution
+T63	ENTITY 519 539	The reaction mixture
+T5	MODIFIER 614 622	nitrogen
+T8	TEMPERATURE 589 605	that temperature
+T9	MODIFIER 472 486	in one portion
+T10	ENTITY 562 573	an oil bath
+T1000	B_Workup 652 655	The
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T3 Arg2:T4
+R4	ARGM Arg1:T6 Arg2:T7
+R12	ARG2 Arg1:T17 Arg2:T19
+R13	ARG2 Arg1:T17 Arg2:T20
+R14	ARG1 Arg1:T3 Arg2:T21
+R11	ARG1 Arg1:T17 Arg2:T59
+R35	ARG2 Arg1:T3 Arg2:T61
+R55	ARG1 Arg1:T6 Arg2:T63
+R3	ARG1 Arg1:T22 Arg2:T63
+R5	ARGM Arg1:T22 Arg2:T5
+R6	ARGM Arg1:T22 Arg2:T8
+R7	ARGM Arg1:T3 Arg2:T9
+R8	ARG2 Arg1:T6 Arg2:T10

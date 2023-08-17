@@ -1,0 +1,56 @@
+T1	ENTITY 84 127	a 500 mL three-necked, round-bottomed flask
+T2	ENTITY 228 266	celecoxib (7.00 g, 18.4 mmol, 1 equiv)
+T3	ENTITY 268 326	potassium carbonate powder (5.07 g, 36.7 mmol, 2.00 equiv)
+T4	ENTITY 328 433	2-mesityl-2,5,6,7-tetrahydropyrrolo[2,1-c][1,2,4]triazol-4-ium chloride (1) (97 mg, 0.37 mmol, 2.0 mol %)
+T5	ENTITY 439 464	anhydrous ethanol (70 mL)
+T6	ENTITY 466 486	The reaction mixture
+T7	ENTITY 502 512	the vessel
+T8	ENTITY 566 578	Benzaldehyde (2.25 mL, 2.33 g, 22.0 mmol, 1.20 equiv)
+T9	ENTITY 661 691	the resulting reaction mixture
+T10	ENTITY 879 899	The reaction mixture
+T11	ENTITY 979 1001	70 mL of anhydrous DMF
+T12	ENTITY 1031 1086	Benzyl bromide (3.27 mL, 4.70 g, 27.5 mmol, 1.50 equiv)
+T13	ENTITY 1208 1238	The resulting reaction mixture
+T19	REACTION_STEP 222 227	added
+T20	REACTION_STEP 490 497	stirred
+T21	REACTION_STEP 582 587	added
+T22	REACTION_STEP 695 701	heated
+T23	REACTION_STEP 903 909	cooled
+T24	REACTION_STEP 966 973	diluted
+T26	REACTION_STEP 1095 1100	added
+T27	REACTION_STEP 1242 1249	stirred
+T32	MODIFIER 641 655	in one portion
+T33	TEMP_TARGET 708 728	internal temperature
+T34	TEMPERATURE 732 737	70 °C
+T35	TIME 742 746	16 h
+T36	TEMPERATURE 913 939	room temperature (22-24 °C )
+T37	TEMP_TARGET 940 960	internal temperature
+T38	MODIFIER 1101 1115	in one portion
+T42	TEMPERATURE 1253 1283	ambient temperature (20-24 °C)
+T43	TIME 1299 1302	3 h
+T14	REACTION_STEP 516 524	degassed
+T15	MODIFIER 530 564	three vacuum/nitrogen purge cycles
+R0	ARG2 Arg1:T19 Arg2:T1
+R1	ARG1 Arg1:T19 Arg2:T2
+R2	ARG1 Arg1:T19 Arg2:T3
+R3	ARG1 Arg1:T19 Arg2:T4
+R4	ARG1 Arg1:T19 Arg2:T5
+R5	ARG1 Arg1:T20 Arg2:T6
+R6	ARG1 Arg1:T21 Arg2:T8
+R7	ARGM Arg1:T21 Arg2:T32
+R8	ARG1 Arg1:T22 Arg2:T9
+R9	ARGM Arg1:T22 Arg2:T33
+R10	ARGM Arg1:T22 Arg2:T34
+R11	ARGM Arg1:T22 Arg2:T35
+R12	ARG1 Arg1:T23 Arg2:T10
+R13	ARGM Arg1:T23 Arg2:T36
+R14	ARGM Arg1:T23 Arg2:T37
+R15	ARG1 Arg1:T24 Arg2:T10
+R16	ARG2 Arg1:T24 Arg2:T11
+R18	ARG1 Arg1:T26 Arg2:T12
+R19	ARGM Arg1:T26 Arg2:T38
+R23	ARG1 Arg1:T27 Arg2:T13
+R24	ARGM Arg1:T27 Arg2:T42
+R25	ARGM Arg1:T27 Arg2:T43
+R26	ARG1 Arg1:T14 Arg2:T7
+R27	ARGM Arg1:T14 Arg2:T15

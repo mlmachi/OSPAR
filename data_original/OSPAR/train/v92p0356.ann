@@ -1,0 +1,32 @@
+T3	ENTITY 438 447	The flask
+T4	ENTITY 473 481	nitrogen
+T6	ENTITY 633 686	solid benzoyl peroxide (24.2 g, 99.9 mmol, 1.0 equiv)
+T7	ENTITY 691 751	solid sodium phosphate dibasic (21.3 g, 150 mmol, 1.5 equiv)
+T8	ENTITY 791 817	Dimethylformamide (250 mL)
+T9	ENTITY 828 868	The resulting heterogeneous white slurry
+T11	ENTITY 912 964	solid N-Boc-piperazine (22.3 g, 120 mmol, 1.2 equiv)
+T12	ENTITY 1045 1057	the reaction
+T35	REACTION_STEP 456 467	back-filled
+T37	REACTION_STEP 756 761	added
+T38	REACTION_STEP 821 826	added
+T39	REACTION_STEP 883 887	stir
+T40	REACTION_STEP 968 973	added
+T41	REACTION_STEP 1072 1076	stir
+T56	TEMPERATURE 891 907	room temperature
+T57	MODIFIER 974 988	in one portion
+T58	TEMPERATURE 1080 1096	room temperature
+T59	MODIFIER 1103 1111	nitrogen
+T60	TIME 1247 1250	1 h
+T1000	B_Workup 1409 1412	The
+R3	ARG1 Arg1:T35 Arg2:T3
+R4	ARG2 Arg1:T35 Arg2:T4
+R5	ARG1 Arg1:T37 Arg2:T7
+R6	ARG1 Arg1:T38 Arg2:T8
+R7	ARG1 Arg1:T39 Arg2:T9
+R8	ARGM Arg1:T39 Arg2:T56
+R9	ARG1 Arg1:T40 Arg2:T11
+R10	ARGM Arg1:T40 Arg2:T57
+R11	ARG1 Arg1:T41 Arg2:T12
+R12	ARGM Arg1:T41 Arg2:T58
+R13	ARGM Arg1:T41 Arg2:T59
+R1	ARG1 Arg1:T37 Arg2:T6

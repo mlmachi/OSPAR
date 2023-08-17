@@ -1,0 +1,42 @@
+T3	REACTION_STEP 498 503	added
+T4	TIME 522 528	15 min
+T5	REACTION_STEP 578 585	stirred
+T6	TEMPERATURE 589 605	room temperature
+T7	TIME 610 614	1 hr
+T8	REACTION_STEP 746 751	added
+T9	TIME 769 774	5 min
+T10	REACTION_STEP 803 810	stirred
+T11	TEMPERATURE 814 830	room temperature
+T12	TIME 835 840	13 hr
+T13	REACTION_STEP 209 216	charged
+T14	ENTITY 255 309	dichlorodicyclopentadienylvanadium (0.756 g, 3.0 mmol)
+T15	ENTITY 222 250	zinc powder (13 g, 200 mmol)
+T18	ENTITY 405 494	a solution of chlorotrimethylsilane (21.7 g, 200 mmol) in 200 mL of tetrahydrofuran (THF)
+T20	ENTITY 698 742	Cyclohexanecarboxaldehyde (11.2 g, 100 mmol)
+T44	ENTITY 554 574	The reaction mixture
+T46	ENTITY 779 799	the reaction mixture
+T36	ENTITY 0 42	A 500-mL, two-necked, round-bottomed flask
+T1	MODIFIER 504 512	dropwise
+T16	REACTION_STEP 340 346	purged
+T17	ENTITY 311 320	The flask
+T19	ENTITY 352 357	argon
+T21	REACTION_STEP 370 374	cool
+T22	TEMPERATURE 378 394	room temperature
+R2	ARGM Arg1:T3 Arg2:T4
+R3	ARGM Arg1:T5 Arg2:T6
+R4	ARGM Arg1:T5 Arg2:T7
+R5	ARGM Arg1:T8 Arg2:T9
+R6	ARGM Arg1:T10 Arg2:T11
+R7	ARGM Arg1:T10 Arg2:T12
+R8	ARG2 Arg1:T13 Arg2:T14
+R9	ARG2 Arg1:T13 Arg2:T15
+R11	ARG1 Arg1:T3 Arg2:T18
+R13	ARG1 Arg1:T8 Arg2:T20
+R28	ARG1 Arg1:T13 Arg2:T36
+R12	ARG1 Arg1:T5 Arg2:T44
+R1	ARGM Arg1:T3 Arg2:T1
+R14	ARG1 Arg1:T10 Arg2:T46
+R15	ARG1 Arg1:T16 Arg2:T17
+R16	ARG2 Arg1:T16 Arg2:T19
+R17	ARGM Arg1:T21 Arg2:T22
+R18	ARG1 Arg1:T21 Arg2:T17

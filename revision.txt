@@ -1,0 +1,11 @@
+We found the revision of Organic Syntheses articles in html versions.
+We provide revised version that is adapted to the version on June 29th, 2023.
+
+The directories for the annotation files (.ann) are the followings:
+  original: ./data_original
+  revised on June 29th, 2023.:  ./data_revised_2023-06-29/
+
+2023-06-29
+train/V85P0172
+  Before: T12	ENTITY 457 516	ethyl diazoacetate (11.0 mL, 11.1 g, 95.2 mmol, 1.00 equiv)
+  After: T12	ENTITY 457 516	ethyl diazoacetate (11.0 mL, 10.6 g, 92.5 mmol, 1.00 equiv)

@@ -1,0 +1,46 @@
+T1	ENTITY 36 80	A 250-mL, three-necked, round-bottomed flask
+T2	ENTITY 276 291	water (44.3 mL)
+T3	ENTITY 329 383	2-bromo-2-methylpropanoyl bromide (50.0 g, 217.5 mmol)
+T4	ENTITY 389 400	the mixture
+T5	ENTITY 451 467	a brine/ice bath
+T6	ENTITY 483 520	The 2-bromo-2-methylpropanoyl bromide
+T10	REACTION_STEP 187 194	charged
+T11	REACTION_STEP 316 323	charged
+T12	REACTION_STEP 404 410	cooled
+T13	REACTION_STEP 524 529	added
+T15	TEMPERATURE 411 421	below 5 °C
+T16	TEMP_TARGET 423 443	internal temperature
+T17	MODIFIER 473 481	stirring
+T18	MODIFIER 530 538	dropwise
+T19	MODIFIER 539 545	slowly
+T20	MODIFIER 551 559	stirring
+T22	TEMPERATURE 593 618	does not rise above 15 °C
+T23	TIME 714 717	1 h
+T24	TEMPERATURE 806 824	between 0 and 5 °C
+T1000	B_Workup 826 829	The
+T9	ENTITY 200 271	28.0–30.0% aqueous ammonium hydroxide (35.7 mL, approximately 600 mmol)
+T14	ENTITY 293 312	The dropping funnel
+T21	TEMP_TARGET 568 592	the internal temperature
+T7	MODIFIER 624 631	cooling
+T8	TEMP_TARGET 755 794	the temperature of the reaction mixture
+T30	REACTION_STEP 688 696	Stirring
+R0	ARG1 Arg1:T10 Arg2:T1
+R1	ARG2 Arg1:T10 Arg2:T2
+R2	ARG2 Arg1:T11 Arg2:T3
+R3	ARG1 Arg1:T12 Arg2:T4
+R4	ARG2 Arg1:T12 Arg2:T5
+R5	ARGM Arg1:T12 Arg2:T15
+R6	ARGM Arg1:T12 Arg2:T16
+R7	ARGM Arg1:T13 Arg2:T18
+R8	ARGM Arg1:T13 Arg2:T19
+R9	ARG2 Arg1:T10 Arg2:T9
+R10	ARG1 Arg1:T11 Arg2:T14
+R11	ARGM Arg1:T12 Arg2:T17
+R12	ARG1 Arg1:T13 Arg2:T6
+R13	ARGM Arg1:T13 Arg2:T20
+R14	ARGM Arg1:T13 Arg2:T21
+R15	ARGM Arg1:T13 Arg2:T22
+R16	ARGM Arg1:T13 Arg2:T7
+R18	ARGM Arg1:T30 Arg2:T23
+R19	ARGM Arg1:T30 Arg2:T8
+R20	ARGM Arg1:T30 Arg2:T24

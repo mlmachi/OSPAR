@@ -1,0 +1,49 @@
+T1	ENTITY 53 97	A 500-mL round-bottomed, single-necked flask
+T2	ENTITY 182 232	N,N'-carbonyldiimidazole (CDI) (11.6 g, 71.6 mmol)
+T4	ENTITY 289 312	dichloromethane (40 mL)
+T6	ENTITY 463 472	The flask
+T7	ENTITY 486 503	an ice water bath
+T8	ENTITY 554 605	A second 250-mL round-bottomed, single-necked flask
+T9	ENTITY 694 768	L-alanine methyl ester hydrochloride (HCl•H2N-Ala-OMe) (10.0 g, 71.6 mmol)
+T11	ENTITY 825 848	dichloromethane (80 mL)
+T12	ENTITY 853 883	the resulting white suspension
+T13	ENTITY 893 951	diisopropylethylamine (DIPEA) (9.25 g, 12.5 mL, 71.6 mmol)
+T15	ENTITY 1244 1273	The amino acid/DIPEA solution
+T16	ENTITY 1312 1330	the CDI-suspension
+T18	ENTITY 1496 1513	the final mixture
+T29	REACTION_STEP 169 176	charged
+T32	REACTION_STEP 476 482	placed
+T33	REACTION_STEP 681 688	charged
+T35	REACTION_STEP 887 892	added
+T38	REACTION_STEP 1282 1287	added
+T39	REACTION_STEP 1517 1524	stirred
+T46	TEMPERATURE 548 552	0 °C
+T48	MODIFIER 1288 1296	dropwise
+T49	TIME 1302 1308	40 min
+T50	TEMPERATURE 1334 1338	0 °C
+T51	TEMPERATURE 1528 1552	room temperature (23 °C)
+T53	TIME 1557 1561	20 h
+T3	REACTION_STEP 321 329	stirring
+T5	MODIFIER 314 320	Gentle
+T19	TEMP_TARGET 513 544	the temperature of the solution
+R0	ARG1 Arg1:T29 Arg2:T1
+R1	ARG2 Arg1:T29 Arg2:T2
+R3	ARG2 Arg1:T29 Arg2:T4
+R5	ARG1 Arg1:T32 Arg2:T6
+R6	ARG2 Arg1:T32 Arg2:T7
+R7	ARGM Arg1:T32 Arg2:T46
+R8	ARG1 Arg1:T33 Arg2:T8
+R9	ARG2 Arg1:T33 Arg2:T9
+R12	ARG2 Arg1:T35 Arg2:T12
+R13	ARG1 Arg1:T35 Arg2:T13
+R15	ARG1 Arg1:T38 Arg2:T15
+R16	ARG2 Arg1:T38 Arg2:T16
+R17	ARGM Arg1:T38 Arg2:T48
+R18	ARGM Arg1:T38 Arg2:T49
+R19	ARGM Arg1:T38 Arg2:T50
+R20	ARG1 Arg1:T39 Arg2:T18
+R21	ARGM Arg1:T39 Arg2:T51
+R23	ARGM Arg1:T39 Arg2:T53
+R2	ARGM Arg1:T3 Arg2:T5
+R4	ARGM Arg1:T32 Arg2:T19
+R10	ARG2 Arg1:T33 Arg2:T11

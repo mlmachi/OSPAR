@@ -1,0 +1,16 @@
+T1	REACTION_STEP 323 330	stirred
+T2	TIME 347 350	2 h
+T3	REACTION_STEP 138 145	charged
+T4	ENTITY 206 259	3,5-di-tert-butyl salicylaldehyde (1.21 g, 5.16 mmol)
+T6	ENTITY 151 204	(1S,2R)-(−)-cis-1-amino-2-indanol (0.77 g, 5.17 mmol)
+T7	ENTITY 265 290	33 mL of absolute ethanol
+T8	MODIFIER 337 342	argon
+T15	ENTITY 292 319	The yellow reaction mixture
+T5	ENTITY 71 100	A 100-mL round-bottomed flask
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARG2 Arg1:T3 Arg2:T4
+R4	ARG2 Arg1:T3 Arg2:T6
+R5	ARG2 Arg1:T3 Arg2:T7
+R3	ARG1 Arg1:T3 Arg2:T5
+R13	ARG1 Arg1:T1 Arg2:T15
+R6	ARGM Arg1:T1 Arg2:T8

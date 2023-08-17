@@ -1,0 +1,16 @@
+T1	ENTITY 41 85	A single-necked, 250 mL round-bottomed flask
+T2	ENTITY 135 160	absolute ethanol (100 mL)
+T3	ENTITY 162 202	100% hydrazine hydrate (9.7 mL, 0.2 mol)
+T4	ENTITY 207 252	1-(4-chlorophenyl)ethanone (13.0 mL, 0.1 mol)
+T5	ENTITY 254 275	The reaction solution
+T11	REACTION_STEP 122 129	charged
+T12	REACTION_STEP 279 287	refluxed
+T17	TEMPERATURE 279 287	refluxed
+T18	TIME 292 296	3 hr
+R0	ARG1 Arg1:T11 Arg2:T1
+R1	ARG2 Arg1:T11 Arg2:T2
+R2	ARG2 Arg1:T11 Arg2:T3
+R3	ARG2 Arg1:T11 Arg2:T4
+R4	ARG1 Arg1:T12 Arg2:T5
+R5	ARGM Arg1:T12 Arg2:T17
+R6	ARGM Arg1:T12 Arg2:T18

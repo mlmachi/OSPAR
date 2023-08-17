@@ -1,0 +1,19 @@
+T1	ENTITY 39 81	A one-necked, 100-mL, round-bottomed flask
+T2	ENTITY 136 211	pyruvic aldehyde dimethyl acetal (12.1 mL, 100 mmol) in cyclohexane (50 mL)
+T4	ENTITY 213 247	benzyl alcohol (22.8 mL, 220 mmol)
+T5	ENTITY 252 303	p-toluenesulfonic acid monohydrate (0.95 g, 5 mmol)
+T6	ENTITY 305 326	The resulting mixture
+T14	REACTION_STEP 123 130	charged
+T15	REACTION_STEP 330 336	heated
+T19	TEMPERATURE 340 346	reflux
+T20	TIME 351 354	2 h
+T1000	B_Workup 413 417	When
+T7	MODIFIER 355 411	using a Dean–Stark separator for the removal of methanol
+R0	ARG1 Arg1:T14 Arg2:T1
+R1	ARG2 Arg1:T14 Arg2:T2
+R3	ARG2 Arg1:T14 Arg2:T4
+R4	ARG2 Arg1:T14 Arg2:T5
+R5	ARG1 Arg1:T15 Arg2:T6
+R6	ARGM Arg1:T15 Arg2:T19
+R7	ARGM Arg1:T15 Arg2:T20
+R8	ARGM Arg1:T15 Arg2:T7

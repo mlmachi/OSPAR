@@ -1,0 +1,27 @@
+T1	ENTITY 66 118	An oven-dried 100-mL two-necked round-bottomed flask
+T2	ENTITY 261 308	acetophenone (1) (6.01 g, 50.0 mmol, 1.0 equiv)
+T3	ENTITY 313 382	(RS)-2-methylpropane-2-sulfinamide (2) (6.06 g, 50.0 mmol, 1.0 equiv)
+T4	ENTITY 439 458	the stirred mixture
+T5	ENTITY 475 522	Ti(OEt)4 (21.3 mL, 22.8 g, 100 mmol, 2.0 equiv)
+T20	REACTION_STEP 248 255	charged
+T23	REACTION_STEP 524 529	added
+T26	REACTION_STEP 690 696	heated
+T37	TEMP_TARGET 715 746	the temperature of the oil bath
+T38	TEMPERATURE 750 755	72 °C
+T39	TIME 760 763	4 h
+T1000	B_Workup 814 817	The
+T7	ENTITY 657 686	the stirred (700 rpm) mixture
+T6	MODIFIER 661 668	stirred
+T8	REACTION_STEP 418 426	flushing
+T9	ENTITY 432 437	argon
+R0	ARG1 Arg1:T20 Arg2:T1
+R1	ARG2 Arg1:T20 Arg2:T2
+R2	ARG2 Arg1:T20 Arg2:T3
+R5	ARG2 Arg1:T23 Arg2:T4
+R6	ARG1 Arg1:T23 Arg2:T5
+R10	ARGM Arg1:T26 Arg2:T38
+R11	ARGM Arg1:T26 Arg2:T39
+R8	ARG1 Arg1:T26 Arg2:T7
+R9	ARGM Arg1:T26 Arg2:T6
+R12	ARG2 Arg1:T8 Arg2:T9
+R3	ARGM Arg1:T26 Arg2:T37

@@ -1,0 +1,28 @@
+T1	ENTITY 56 95	A 2-L, two-necked, round-bottomed flask
+T2	ENTITY 167 201	(S)-ethyl lactate (118 g, 1.0 mol)
+T3	ENTITY 203 236	500 mL of dimethylformamide (DMF)
+T4	ENTITY 242 268	imidazole (102 g, 1.5 mol)
+T5	ENTITY 270 282	The solution
+T6	ENTITY 296 306	a ice bath
+T7	ENTITY 311 370	tert-butyldimethylsilyl chloride (TBDMSCl) (150 g, 1.0 mol)
+T14	REACTION_STEP 154 161	charged
+T15	REACTION_STEP 286 292	cooled
+T16	REACTION_STEP 374 379	added
+T20	MODIFIER 380 426	in three 50-g portions, at intervals of 30 min
+T8	ENTITY 518 530	The ice bath
+T9	REACTION_STEP 542 546	melt
+T10	TIME 557 566	overnight
+T11	MODIFIER 547 556	gradually
+T12	TEMPERATURE 298 301	ice
+R0	ARG1 Arg1:T14 Arg2:T1
+R1	ARG2 Arg1:T14 Arg2:T2
+R2	ARG2 Arg1:T14 Arg2:T3
+R3	ARG2 Arg1:T14 Arg2:T4
+R4	ARG1 Arg1:T15 Arg2:T5
+R5	ARG2 Arg1:T15 Arg2:T6
+R6	ARG1 Arg1:T16 Arg2:T7
+R7	ARGM Arg1:T16 Arg2:T20
+R9	ARG1 Arg1:T9 Arg2:T8
+R10	ARGM Arg1:T9 Arg2:T10
+R11	ARGM Arg1:T9 Arg2:T11
+R12	ARGM Arg1:T15 Arg2:T12

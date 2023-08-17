@@ -1,0 +1,39 @@
+T1	ENTITY 0 28	A 500-mL, three-necked flask
+T2	ENTITY 196 273	a 10% aqueous sodium hydroxide solution (250 mL) in a 500 mL Erlenmeyer flask
+T4	ENTITY 290 317	70 mL of bromine (1.37 mol)
+T6	ENTITY 392 435	26.7 g (50 mmol) of hexaphenylbenzene (HPB)
+T8	ENTITY 546 572	the slowly stirred bromine
+T10	ENTITY 761 783	the dark-orange slurry
+T27	REACTION_STEP 184 192	immersed
+T28	REACTION_STEP 277 284	charged
+T30	REACTION_STEP 379 386	charged
+T32	REACTION_STEP 595 600	added
+T33	REACTION_STEP 787 794	stirred
+T41	MODIFIER 601 607	slowly
+T42	TIME 613 619	1 hour
+T43	TIME 813 819	20 min
+T1000	B_Workup 821 824	The
+T7	ENTITY 347 378	a 250-mL powder addition funnel
+T11	ENTITY 574 591	hexaphenylbenzene
+T3	REACTION_STEP 450 456	placed
+T5	ENTITY 437 446	The flask
+T9	ENTITY 460 472	a water bath
+T15	TEMPERATURE 476 495	ambient temperature
+T12	MODIFIER 557 564	stirred
+T16	ENTITY 165 174	a pipette
+R1	ARG2 Arg1:T27 Arg2:T2
+R3	ARG1 Arg1:T28 Arg2:T1
+R5	ARG2 Arg1:T28 Arg2:T4
+R8	ARG2 Arg1:T30 Arg2:T6
+R11	ARGM Arg1:T32 Arg2:T41
+R12	ARGM Arg1:T32 Arg2:T42
+R13	ARG1 Arg1:T33 Arg2:T10
+R14	ARGM Arg1:T33 Arg2:T43
+R7	ARG1 Arg1:T30 Arg2:T7
+R9	ARG2 Arg1:T32 Arg2:T8
+R10	ARG1 Arg1:T32 Arg2:T11
+R2	ARG1 Arg1:T3 Arg2:T5
+R4	ARG2 Arg1:T3 Arg2:T9
+R6	ARGM Arg1:T3 Arg2:T15
+R16	ARGM Arg1:T32 Arg2:T12
+R17	ARG1 Arg1:T27 Arg2:T16

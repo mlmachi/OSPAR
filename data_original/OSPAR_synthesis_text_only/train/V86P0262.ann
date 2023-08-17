@@ -1,0 +1,12 @@
+T1	ENTITY 76 149	a suspension of L(-)-proline (11.55 g, 100.3 mmol) in chloroform (500 mL)
+T4	ENTITY 427 447	the reaction mixture
+T17	REACTION_STEP 241 246	added
+T19	REACTION_STEP 451 457	heated
+T29	TEMPERATURE 461 467	reflux
+T5	ENTITY 247 300	2,2,2-trichloro-1-ethoxyethanol (23.27 g, 120.3 mmol)
+T3	ENTITY 474 490	a heating mantle
+R0	ARG2 Arg1:T17 Arg2:T1
+R3	ARG1 Arg1:T19 Arg2:T4
+R4	ARGM Arg1:T19 Arg2:T29
+R5	ARG1 Arg1:T17 Arg2:T5
+R1	ARG2 Arg1:T19 Arg2:T3

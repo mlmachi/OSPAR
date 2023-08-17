@@ -1,0 +1,21 @@
+T1	ENTITY 58 113	A 250-mL, two-necked, round-bottomed, flame-dried flask
+T2	ENTITY 252 325	dichloromethylene-dimethyliminium chloride (15.50 g, 95.41 mmol, 2 equiv)
+T3	ENTITY 327 374	dimethylacetamide (4.15 g, 47.71 mmol, 1 equiv)
+T4	ENTITY 379 403	dichloromethane (100 mL)
+T5	ENTITY 405 419	The suspension
+T6	ENTITY 451 462	an oil bath
+T8	REACTION_STEP 239 246	charged
+T9	REACTION_STEP 423 429	heated
+T10	TEMPERATURE 433 439	reflux
+T11	TIME 444 447	3 h
+T12	TEMPERATURE 466 471	47 °C
+T1000	B_Workup 635 640	After
+R0	ARG1 Arg1:T8 Arg2:T1
+R1	ARG2 Arg1:T8 Arg2:T2
+R2	ARG2 Arg1:T8 Arg2:T3
+R3	ARG2 Arg1:T8 Arg2:T4
+R4	ARG1 Arg1:T9 Arg2:T5
+R5	ARG2 Arg1:T9 Arg2:T6
+R6	ARGM Arg1:T9 Arg2:T10
+R7	ARGM Arg1:T9 Arg2:T11
+R8	ARGM Arg1:T9 Arg2:T12

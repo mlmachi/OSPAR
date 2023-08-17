@@ -1,0 +1,30 @@
+T1	ENTITY 262 316	methyl malonic acid (1) (12.0 g, 97.6 mmol, 1.0 equiv)
+T2	ENTITY 350 371	diethyl ether (50 mL)
+T3	ENTITY 373 427	4-(dimethylamino)pyridine (1.2 g, 9.8 mmol, 0.1 equiv)
+T4	ENTITY 429 456	tert-butyl alcohol (150 mL)
+T5	ENTITY 462 525	solid di-tert-butyl dicarbonate (48.3 g, 214.6 mmol, 2.2 equiv)
+T6	ENTITY 527 551	The heterogeneous slurry
+T20	REACTION_STEP 244 251	cooling
+T21	REACTION_STEP 320 325	added
+T22	REACTION_STEP 338 346	addition
+T23	REACTION_STEP 555 562	stirred
+T34	TEMPERATURE 255 260	23 °C
+T35	MODIFIER 564 571	500 rpm
+T36	TEMPERATURE 576 600	room temperature (23 °C)
+T38	TIME 605 609	48 h
+T7	ENTITY 39 93	An oven-dried 500-mL three-necked round-bottomed flask
+T8	REACTION_STEP 187 193	placed
+T9	ENTITY 200 216	an Ar atmosphere
+R0	ARGM Arg1:T20 Arg2:T34
+R1	ARG1 Arg1:T21 Arg2:T1
+R4	ARG2 Arg1:T22 Arg2:T1
+R5	ARG1 Arg1:T22 Arg2:T2
+R6	ARG1 Arg1:T22 Arg2:T3
+R7	ARG1 Arg1:T22 Arg2:T4
+R8	ARG1 Arg1:T22 Arg2:T5
+R9	ARG1 Arg1:T23 Arg2:T6
+R10	ARGM Arg1:T23 Arg2:T35
+R12	ARGM Arg1:T23 Arg2:T36
+R13	ARGM Arg1:T23 Arg2:T38
+R14	ARG1 Arg1:T8 Arg2:T7
+R15	ARG2 Arg1:T8 Arg2:T9

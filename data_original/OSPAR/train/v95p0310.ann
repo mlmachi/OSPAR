@@ -1,0 +1,34 @@
+T1	REACTION_STEP 323 328	added
+T2	TEMPERATURE 370 375	23 °C
+T3	REACTION_STEP 414 420	cooled
+T4	TEMPERATURE 424 428	0 °C
+T11	REACTION_STEP 117 124	charged
+T12	ENTITY 130 199	(±)-2,2,2-trichloro-1-phenylethan-1-ol (38.3 g, 170 mmol, 1.00 equiv)
+T13	ENTITY 230 255	saturated NaHCO3 (700 mL)
+T14	ENTITY 201 225	dichloromethane (350 mL)
+T15	ENTITY 329 366	TEMPO (2.66 g, 17.0 mmol, 0.10 equiv)
+T16	REACTION_STEP 499 504	added
+T17	ENTITY 433 485	pyridinium tribromide (81.6 g, 255 mmol, 1.50 equiv)
+T34	ENTITY 44 113	A 2000-mL Erlenmeyer-flask equipped with a 7 cm flat magnetic stirrer
+T37	ENTITY 306 319	this solution
+T38	ENTITY 377 410	The resulting orange/red solution
+T18	MODIFIER 505 517	portion wise
+T5	REACTION_STEP 273 280	stirred
+T6	ENTITY 257 269	The solution
+T8	MODIFIER 281 301	vigorously (900 rpm)
+T9	MODIFIER 489 498	carefully
+T1000	B_Workup 519 524	After
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T3 Arg2:T4
+R6	ARG2 Arg1:T11 Arg2:T12
+R7	ARG2 Arg1:T11 Arg2:T13
+R8	ARG2 Arg1:T11 Arg2:T14
+R9	ARG1 Arg1:T1 Arg2:T15
+R10	ARG1 Arg1:T16 Arg2:T17
+R3	ARG1 Arg1:T11 Arg2:T34
+R4	ARG2 Arg1:T1 Arg2:T37
+R5	ARG1 Arg1:T3 Arg2:T38
+R16	ARGM Arg1:T16 Arg2:T18
+R11	ARG1 Arg1:T5 Arg2:T6
+R12	ARGM Arg1:T5 Arg2:T8
+R14	ARGM Arg1:T16 Arg2:T9

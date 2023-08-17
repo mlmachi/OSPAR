@@ -1,0 +1,24 @@
+T1	ENTITY 89 211	a solution of methyl bromoacetate (1) (51.5 mL, 0.528 mol) in MeOH (86 mL) in a 500-mL, three-necked, round-bottomed flask
+T4	ENTITY 471 496	The residual sodium azide
+T6	ENTITY 542 558	water (2 × 6 mL)
+T7	ENTITY 560 574	The suspension
+T8	ENTITY 643 655	The solution
+T16	REACTION_STEP 364 369	added
+T17	REACTION_STEP 500 506	rinsed
+T18	REACTION_STEP 578 585	stirred
+T19	REACTION_STEP 682 688	reflux
+T26	TIME 590 596	20 min
+T28	TIME 715 718	2 h
+T2	ENTITY 370 441	a slurry of sodium azide (42.3 g, 0.649 mol, 1.23 equiv) in H2O (40 mL)
+T3	MODIFIER 675 681	gentle
+T9	TEMPERATURE 682 688	reflux
+R1	ARG2 Arg1:T16 Arg2:T1
+R2	ARG1 Arg1:T17 Arg2:T4
+R4	ARG2 Arg1:T17 Arg2:T6
+R5	ARG1 Arg1:T18 Arg2:T7
+R6	ARGM Arg1:T18 Arg2:T26
+R7	ARG1 Arg1:T19 Arg2:T8
+R9	ARGM Arg1:T19 Arg2:T28
+R8	ARGM Arg1:T19 Arg2:T3
+R10	ARGM Arg1:T19 Arg2:T9
+R11	ARG1 Arg1:T16 Arg2:T2

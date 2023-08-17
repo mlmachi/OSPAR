@@ -1,0 +1,20 @@
+T1	ENTITY 90 153	A one-necked (B14, diameter: 2.0 cm) 10-mL round-bottomed flask
+T2	ENTITY 252 355	di-tert-butyl(2',4',6'-triisopropyl-[1,1'-biphenyl]-2-yl)phosphine (1) (0.500 g, 1.14 mmol, 1.00 equiv)
+T3	ENTITY 360 427	chloro(dimethylsulfide)gold(I) (2) (0.345 g, 1.14 mmol, 1.00 equiv)
+T4	ENTITY 429 451	Dichloromethane (6 mL)
+T6	ENTITY 519 551	The resulting colorless solution
+T8	REACTION_STEP 239 246	charged
+T9	REACTION_STEP 455 460	added
+T10	REACTION_STEP 555 562	stirred
+T12	MODIFIER 564 571	600 rpm
+T13	TEMPERATURE 576 581	22 °C
+T14	TIME 586 589	1 h
+T1000	B_Workup 591 594	The
+R0	ARG1 Arg1:T8 Arg2:T1
+R1	ARG2 Arg1:T8 Arg2:T2
+R2	ARG2 Arg1:T8 Arg2:T3
+R3	ARG1 Arg1:T9 Arg2:T4
+R4	ARG1 Arg1:T10 Arg2:T6
+R5	ARGM Arg1:T10 Arg2:T12
+R6	ARGM Arg1:T10 Arg2:T13
+R7	ARGM Arg1:T10 Arg2:T14

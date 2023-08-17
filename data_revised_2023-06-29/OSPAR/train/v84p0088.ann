@@ -1,0 +1,31 @@
+T1	ENTITY 44 88	A 250-mL, three-necked, round-bottomed flask
+T2	ENTITY 342 396	allylamine (1) (14.0 mL, 10.68 g, 187 mmol, 2.1 equiv)
+T3	ENTITY 401 426	100 mL of dichloromethane
+T4	ENTITY 428 440	The solution
+T5	ENTITY 485 502	an ice-water bath
+T6	ENTITY 507 594	a solution of methyl chloroformate (7.0 mL, 8.6 g, 91 mmol) in 30 mL of dichloromethane
+T7	ENTITY 650 677	The resulting white mixture
+T11	REACTION_STEP 298 305	charged
+T12	REACTION_STEP 444 450	cooled
+T13	REACTION_STEP 598 603	added
+T14	REACTION_STEP 692 696	warm
+T17	TEMPERATURE 454 458	0 °C
+T18	TEMP_TARGET 460 480	internal temperature
+T19	MODIFIER 604 612	dropwise
+T20	TIME 642 648	10 min
+T21	TEMPERATURE 700 716	room temperature
+T22	TIME 722 728	30 min
+T1000	B_Workup 923 926	The
+R3	ARG1 Arg1:T11 Arg2:T1
+R4	ARG2 Arg1:T11 Arg2:T2
+R5	ARG2 Arg1:T11 Arg2:T3
+R6	ARG1 Arg1:T12 Arg2:T4
+R7	ARG2 Arg1:T12 Arg2:T5
+R8	ARGM Arg1:T12 Arg2:T17
+R9	ARGM Arg1:T12 Arg2:T18
+R10	ARG1 Arg1:T13 Arg2:T6
+R11	ARGM Arg1:T13 Arg2:T19
+R12	ARGM Arg1:T13 Arg2:T20
+R13	ARG1 Arg1:T14 Arg2:T7
+R14	ARGM Arg1:T14 Arg2:T21
+R15	ARGM Arg1:T14 Arg2:T22

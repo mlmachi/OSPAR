@@ -1,0 +1,21 @@
+T1	ENTITY 33 62	A 250-mL round-bottomed flask
+T3	ENTITY 168 188	acetonitrile (28 mL)
+T4	ENTITY 190 253	(Z)-3,7-dimethyl-2,6-octadien-1-ol (nerol) (5.70 mL, 32.5 mmol)
+T5	ENTITY 255 292	aqueous pH 7.0 buffer solution (8 mL)
+T6	ENTITY 294 357	2,2,6,6-tetramethylpiperidin-1-oxyl (TEMPO) (490 mg, 3.24 mmol)
+T7	ENTITY 363 412	iodobenzene diacetate (IBD) (11.49 g, 35.71 mmol)
+T8	ENTITY 414 434	The reaction mixture
+T22	REACTION_STEP 118 125	charged
+T23	REACTION_STEP 438 445	stirred
+T29	TEMPERATURE 449 453	0 °C
+T1000	B_Workup 507 510	The
+T9	MODIFIER 131 150	the following order
+R0	ARG1 Arg1:T22 Arg2:T1
+R2	ARG2 Arg1:T22 Arg2:T3
+R3	ARG2 Arg1:T22 Arg2:T4
+R4	ARG2 Arg1:T22 Arg2:T5
+R5	ARG2 Arg1:T22 Arg2:T6
+R6	ARG2 Arg1:T22 Arg2:T7
+R7	ARG1 Arg1:T23 Arg2:T8
+R8	ARGM Arg1:T23 Arg2:T29
+R9	ARGM Arg1:T22 Arg2:T9

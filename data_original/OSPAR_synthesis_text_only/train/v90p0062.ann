@@ -1,0 +1,30 @@
+T1	ENTITY 40 85	A 1000-mL single-necked, round-bottomed flask
+T3	ENTITY 247 300	1-(4-bromophenyl)ethanone (50.0 g, 251 mmol, 1 equiv)
+T4	ENTITY 302 359	hydroxylamine hydrochloride (37.0 g, 532 mmol, 2.1 equiv)
+T6	ENTITY 364 390	denatured ethanol (375 mL)
+T7	ENTITY 392 432	Pyridine (37.5 mL, 465 mmol, 1.85 equiv)
+T8	ENTITY 495 509	the suspension
+T9	ENTITY 651 669	The ice-water bath
+T10	ENTITY 685 696	an oil bath
+T11	ENTITY 701 721	the reaction mixture
+T22	REACTION_STEP 234 241	charged
+T23	REACTION_STEP 436 443	charged
+T24	REACTION_STEP 725 731	heated
+T35	TIME 515 520	5 min
+T36	TEMPERATURE 735 741	reflux
+T37	MODIFIER 748 756	nitrogen
+T38	TIME 761 764	4 h
+T2	REACTION_STEP 673 681	replaced
+R0	ARG1 Arg1:T22 Arg2:T1
+R2	ARG2 Arg1:T22 Arg2:T3
+R3	ARG2 Arg1:T22 Arg2:T4
+R5	ARG2 Arg1:T22 Arg2:T6
+R6	ARG1 Arg1:T23 Arg2:T7
+R7	ARG2 Arg1:T23 Arg2:T8
+R8	ARGM Arg1:T23 Arg2:T35
+R9	ARG1 Arg1:T24 Arg2:T11
+R10	ARGM Arg1:T24 Arg2:T36
+R11	ARGM Arg1:T24 Arg2:T37
+R12	ARGM Arg1:T24 Arg2:T38
+R1	ARG1 Arg1:T2 Arg2:T9
+R4	ARG2 Arg1:T2 Arg2:T10

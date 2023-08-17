@@ -1,0 +1,55 @@
+T1	ENTITY 70 123	A 2-L, oven-dried, three-necked, round-bottomed flask
+T2	ENTITY 186 242	sodium hydride (13.2 g, 330 mmol, 60% dispersion in oil)
+T3	ENTITY 268 284	Hexanes (300 mL)
+T4	ENTITY 300 314	the suspension
+T5	ENTITY 350 374	the supernatant (250 mL)
+T6	ENTITY 405 421	Dry THF (300 mL)
+T7	ENTITY 434 443	the flask
+T8	ENTITY 538 618	A solution of 3'-bromo-acetophenone (30.0 g, 20 mL, 151 mmol) in dry THF (60 mL)
+T9	ENTITY 654 683	the sodium hydride suspension
+T10	ENTITY 685 721	The resulting light brown suspension
+T12	ENTITY 748 836	a solution of 2-chloro-5-(trifluoromethyl)pyridine (24.9 g, 137 mmol) in dry THF (60 mL)
+T13	ENTITY 940 975	The resulting orange-brown solution
+T14	ENTITY 989 1000	an oil bath
+T30	REACTION_STEP 173 180	charged
+T31	REACTION_STEP 289 294	added
+T32	REACTION_STEP 318 325	stirred
+T34	REACTION_STEP 378 388	poured off
+T35	REACTION_STEP 425 430	added
+T36	REACTION_STEP 622 627	added
+T37	REACTION_STEP 725 732	stirred
+T38	REACTION_STEP 840 845	added
+T39	REACTION_STEP 979 985	heated
+T40	REACTION_STEP 1105 1113	stirring
+T52	TIME 633 638	5 min
+T53	TIME 737 742	5 min
+T54	TIME 851 857	10 min
+T55	TEMP_TARGET 1007 1031	the internal temperature
+T56	TEMPERATURE 1035 1040	60 °C
+T57	TIME 1118 1122	24 h
+T15	MODIFIER 392 403	decantation
+T11	ENTITY 882 898	dry THF (120 mL)
+T16	REACTION_STEP 910 915	rinse
+T17	ENTITY 916 938	the sides of the flask
+R0	ARG1 Arg1:T30 Arg2:T1
+R1	ARG2 Arg1:T30 Arg2:T2
+R2	ARG1 Arg1:T31 Arg2:T3
+R3	ARG1 Arg1:T32 Arg2:T4
+R5	ARG1 Arg1:T34 Arg2:T5
+R6	ARG1 Arg1:T35 Arg2:T6
+R7	ARG2 Arg1:T35 Arg2:T7
+R8	ARG1 Arg1:T36 Arg2:T8
+R9	ARG2 Arg1:T36 Arg2:T9
+R10	ARGM Arg1:T36 Arg2:T52
+R11	ARG1 Arg1:T37 Arg2:T10
+R12	ARGM Arg1:T37 Arg2:T53
+R13	ARG1 Arg1:T38 Arg2:T12
+R14	ARGM Arg1:T38 Arg2:T54
+R15	ARG1 Arg1:T39 Arg2:T13
+R16	ARG2 Arg1:T39 Arg2:T14
+R17	ARGM Arg1:T39 Arg2:T55
+R18	ARGM Arg1:T39 Arg2:T56
+R19	ARGM Arg1:T40 Arg2:T57
+R4	ARGM Arg1:T34 Arg2:T15
+R20	ARG2 Arg1:T16 Arg2:T11
+R21	ARG1 Arg1:T16 Arg2:T17

@@ -1,0 +1,38 @@
+T1	ENTITY 66 104	A 3-necked 250-mL round-bottomed flask
+T2	ENTITY 264 311	4-nitroaniline 1 (5.52 g, 39.6 mmol, 1.0 equiv)
+T3	ENTITY 313 374	diboronpinacol ester (B2pin2, 10.66 g, 41.5 mmol, 1.05 equiv)
+T4	ENTITY 380 428	benzoyl peroxide (193 mg, 0.77 mmol, 0.02 equiv)
+T5	ENTITY 455 466	The mixture
+T6	ENTITY 483 495	MeCN (60 mL)
+T7	ENTITY 501 523	the resulting solution
+T9	ENTITY 603 685	tert-Butyl nitrite (tBuONO, 6.17 g, 53.8 mmol, 1.36 equiv) diluted by MeCN (40 mL)
+T11	ENTITY 747 759	The solution
+T19	REACTION_STEP 251 258	charged
+T20	REACTION_STEP 470 479	dissolved
+T21	REACTION_STEP 527 534	stirred
+T23	REACTION_STEP 694 699	added
+T24	REACTION_STEP 774 778	stir
+T29	MODIFIER 536 543	700 rpm
+T30	TEMPERATURE 548 553	22 °C
+T31	TIME 730 733	1 h
+T32	TEMPERATURE 782 787	23 °C
+T33	TIME 806 809	4 h
+T1000	B_Workup 1018 1021	The
+T12	MODIFIER 559 601	the temperature maintained by a water bath
+T8	MODIFIER 816 858	the temperature maintained by a water bath
+R0	ARG1 Arg1:T19 Arg2:T1
+R1	ARG2 Arg1:T19 Arg2:T2
+R2	ARG2 Arg1:T19 Arg2:T3
+R3	ARG2 Arg1:T19 Arg2:T4
+R4	ARG1 Arg1:T20 Arg2:T5
+R5	ARG2 Arg1:T20 Arg2:T6
+R6	ARG1 Arg1:T21 Arg2:T7
+R7	ARGM Arg1:T21 Arg2:T29
+R8	ARGM Arg1:T21 Arg2:T30
+R10	ARGM Arg1:T23 Arg2:T31
+R11	ARG1 Arg1:T24 Arg2:T11
+R12	ARGM Arg1:T24 Arg2:T32
+R13	ARGM Arg1:T24 Arg2:T33
+R14	ARGM Arg1:T21 Arg2:T12
+R9	ARG1 Arg1:T23 Arg2:T9
+R15	ARGM Arg1:T24 Arg2:T8

@@ -1,0 +1,19 @@
+T1	ENTITY 34 74	A 1-L three-necked, round-bottomed flask
+T2	ENTITY 223 282	2-thiophenecarboxaldehyde (11.21 g, 100.0 mmol, 1.00 equiv)
+T3	ENTITY 284 324	K2CO3 (24.19 g, 175.0 mmol, 41.75 equiv)
+T4	ENTITY 326 380	tosylmethylisocyanide (21.12 g, 100.0 mol, 1.00 equiv)
+T5	ENTITY 385 402	methanol (448 mL)
+T6	ENTITY 404 424	The reaction mixture
+T18	REACTION_STEP 210 217	charged
+T19	REACTION_STEP 428 434	heated
+T29	TEMPERATURE 438 452	reflux (66 °C)
+T31	TIME 457 460	4 h
+T1000	B_Workup 462 467	After
+R0	ARG1 Arg1:T18 Arg2:T1
+R1	ARG2 Arg1:T18 Arg2:T2
+R2	ARG2 Arg1:T18 Arg2:T3
+R3	ARG2 Arg1:T18 Arg2:T4
+R4	ARG2 Arg1:T18 Arg2:T5
+R6	ARG1 Arg1:T19 Arg2:T6
+R7	ARGM Arg1:T19 Arg2:T29
+R9	ARGM Arg1:T19 Arg2:T31

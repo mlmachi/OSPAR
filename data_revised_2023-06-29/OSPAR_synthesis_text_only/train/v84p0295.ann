@@ -1,0 +1,28 @@
+T1	REACTION_STEP 560 566	heated
+T2	TEMPERATURE 570 576	reflux
+T3	TIME 614 617	1 h
+T6	REACTION_STEP 213 220	charged
+T7	ENTITY 378 394	toluene (210 mL)
+T8	ENTITY 273 320	2-chloropyridine (13.5 g, 0.119 mol, 1.1 equiv)
+T9	ENTITY 226 271	benzyl alcohol (11.7 g, 0.108 mol, 1.0 equiv)
+T10	ENTITY 322 372	potassium hydroxide (20.0 g, 0.356 mol, 3.3 equiv)
+T11	REACTION_STEP 514 519	added
+T12	ENTITY 468 510	18-crown-6 (1.43 g, 5.40 mmol, 0.05 equiv)
+T24	ENTITY 24 68	A 500-mL, three-necked, round-bottomed flask
+T30	ENTITY 438 452	The suspension
+T31	ENTITY 536 556	The reaction mixture
+T25	REACTION_STEP 456 463	stirred
+T4	MODIFIER 520 534	in one portion
+T13	MODIFIER 582 609	azeotropic removal of water
+R1	ARGM Arg1:T1 Arg2:T2
+R4	ARG2 Arg1:T6 Arg2:T7
+R5	ARG2 Arg1:T6 Arg2:T8
+R6	ARG2 Arg1:T6 Arg2:T9
+R7	ARG2 Arg1:T6 Arg2:T10
+R8	ARG1 Arg1:T11 Arg2:T12
+R14	ARG1 Arg1:T6 Arg2:T24
+R15	ARG1 Arg1:T25 Arg2:T30
+R16	ARG1 Arg1:T1 Arg2:T31
+R2	ARGM Arg1:T1 Arg2:T3
+R3	ARGM Arg1:T11 Arg2:T4
+R9	ARGM Arg1:T1 Arg2:T13

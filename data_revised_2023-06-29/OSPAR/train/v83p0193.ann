@@ -1,0 +1,26 @@
+T1	REACTION_STEP 431 436	added
+T2	TIME 526 532	30 min
+T3	TEMPERATURE 536 555	ambient temperature
+T4	REACTION_STEP 582 589	stirred
+T5	TEMPERATURE 593 612	ambient temperature
+T6	TIME 617 621	18 h
+T7	REACTION_STEP 259 266	charged
+T8	ENTITY 316 349	triethylamine (13.9 mL, 100 mmol)
+T9	ENTITY 355 413	t-butyldimethylsilyl chloride (TBDMSCl) (15.1 g, 100 mmol)
+T10	ENTITY 272 314	2-methylcyclohexanone (10.0 mL, 82.6 mmol)
+T11	ENTITY 437 508	a solution of sodium iodide (15.0 g, 100 mmol) in acetonitrile (100 mL)
+T36	ENTITY 246 255	The flask
+T37	ENTITY 418 427	the flask
+T38	ENTITY 557 578	The reaction solution
+T1000	B_Workup 623 626	The
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T1 Arg2:T3
+R3	ARGM Arg1:T4 Arg2:T5
+R4	ARGM Arg1:T4 Arg2:T6
+R5	ARG2 Arg1:T7 Arg2:T8
+R6	ARG2 Arg1:T7 Arg2:T9
+R7	ARG2 Arg1:T7 Arg2:T10
+R8	ARG1 Arg1:T1 Arg2:T11
+R21	ARG1 Arg1:T7 Arg2:T36
+R22	ARG2 Arg1:T1 Arg2:T37
+R23	ARG1 Arg1:T4 Arg2:T38

@@ -1,0 +1,17 @@
+T1	ENTITY 60 111	An oven-dried 1-L, two-necked, round-bottomed flask
+T2	ENTITY 237 302	o-nitrobenzenesulfonyl hydrazide (1) (20.0 g, 92.1 mmol, 1 equiv)
+T3	ENTITY 330 346	Acetone (300 mL)
+T4	ENTITY 372 394	the resulting solution
+T17	REACTION_STEP 224 231	charged
+T18	REACTION_STEP 350 355	added
+T19	REACTION_STEP 395 402	stirred
+T27	TEMPERATURE 406 430	room temperature (24 °C)
+T29	TIME 438 444	10 min
+T1000	B_Workup 636 644	Aliquots
+T6	MODIFIER 312 317	argon
+R0	ARG1 Arg1:T17 Arg2:T1
+R1	ARG2 Arg1:T17 Arg2:T2
+R2	ARG1 Arg1:T18 Arg2:T3
+R3	ARG1 Arg1:T19 Arg2:T4
+R4	ARGM Arg1:T19 Arg2:T27
+R6	ARGM Arg1:T17 Arg2:T6

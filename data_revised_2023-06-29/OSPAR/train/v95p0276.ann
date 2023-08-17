@@ -1,0 +1,36 @@
+T1	REACTION_STEP 509 516	stirred
+T2	TIME 548 554	15 min
+T3	TEMPERATURE 580 586	1.0 °C
+T4	REACTION_STEP 737 742	added
+T5	TIME 768 774	10 min
+T6	REACTION_STEP 869 876	stirred
+T7	TIME 896 902	30 min
+T17	REACTION_STEP 335 342	charged
+T18	ENTITY 348 403	4-dimethylaminopyridine (1.83 g, 15.0 mmol, 0.20 equiv)
+T19	ENTITY 408 483	p-toluenesulfonyl hydrazide (14.0 g, 75.0 mmol, 1 equiv) in CH2Cl2 (350 mL)
+T20	REACTION_STEP 642 647	added
+T21	ENTITY 593 638	triethylamine (15.8 mL, 113 mmol, 1.50 equiv)
+T22	ENTITY 661 733	1-Naphthoyl chloride (11.8 mL, 78.8 mmol, 1.05 equiv) in 30 mL of CH2Cl2
+T55	ENTITY 276 285	The flask
+T56	ENTITY 485 505	The reaction mixture
+T57	ENTITY 833 865	The pale yellow reaction mixture
+T71	TEMPERATURE 811 831	does not exceed 5 °C
+T8	MODIFIER 535 543	1200 rpm
+T12	TEMP_TARGET 556 576	internal temperature
+T13	TEMP_TARGET 786 810	the internal temperature
+T1000	B_Workup 904 907	The
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T1 Arg2:T3
+R3	ARGM Arg1:T4 Arg2:T5
+R4	ARGM Arg1:T6 Arg2:T7
+R10	ARG2 Arg1:T17 Arg2:T18
+R11	ARG2 Arg1:T17 Arg2:T19
+R12	ARG1 Arg1:T20 Arg2:T21
+R13	ARG1 Arg1:T4 Arg2:T22
+R5	ARG1 Arg1:T17 Arg2:T55
+R6	ARG1 Arg1:T1 Arg2:T56
+R7	ARG1 Arg1:T6 Arg2:T57
+R8	ARGM Arg1:T4 Arg2:T71
+R9	ARGM Arg1:T1 Arg2:T8
+R17	ARGM Arg1:T1 Arg2:T12
+R18	ARGM Arg1:T4 Arg2:T13

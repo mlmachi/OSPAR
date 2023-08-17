@@ -1,0 +1,32 @@
+T1	ENTITY 57 101	A 250-mL, three-necked, round-bottomed flask
+T2	ENTITY 217 270	methyl 2-methyl-3-nitrobenzoate 1 (7.50 g, 37.3 mmol)
+T4	ENTITY 275 299	anhydrous DMSO (52.5 mL)
+T5	ENTITY 304 325	the resulting mixture
+T6	ENTITY 350 399	4-fluorobenzaldehyde (6.00 mL, 6.94 g, 1.5 equiv)
+T7	ENTITY 404 439	DBU (11.24 mL, 11.35 g, 2.00 equiv)
+T8	ENTITY 441 472	The homogeneous, brown solution
+T39	REACTION_STEP 204 211	charged
+T40	REACTION_STEP 329 336	charged
+T41	REACTION_STEP 481 488	stirred
+T42	REACTION_STEP 527 533	heated
+T60	TEMPERATURE 492 508	room temperature
+T61	TIME 513 517	20 h
+T62	TEMP_TARGET 540 560	internal temperature
+T63	TEMPERATURE 564 569	55 °C
+T64	TIME 574 577	4 h
+T1000	B_Workup 579 582	The
+T3	MODIFIER 337 349	sequentially
+R0	ARG1 Arg1:T39 Arg2:T1
+R1	ARG2 Arg1:T39 Arg2:T2
+R3	ARG2 Arg1:T39 Arg2:T4
+R4	ARG2 Arg1:T40 Arg2:T5
+R5	ARG1 Arg1:T40 Arg2:T6
+R6	ARG1 Arg1:T40 Arg2:T7
+R7	ARG1 Arg1:T41 Arg2:T8
+R8	ARGM Arg1:T41 Arg2:T60
+R9	ARGM Arg1:T41 Arg2:T61
+R10	ARG1 Arg1:T42 Arg2:T8
+R11	ARGM Arg1:T42 Arg2:T62
+R12	ARGM Arg1:T42 Arg2:T63
+R13	ARGM Arg1:T42 Arg2:T64
+R2	ARGM Arg1:T40 Arg2:T3

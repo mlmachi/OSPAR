@@ -1,0 +1,17 @@
+T1	REACTION_STEP 499 506	stirred
+T2	TIME 511 517	10 min
+T3	TEMPERATURE 521 537	room temperature
+T7	REACTION_STEP 227 234	charged
+T8	ENTITY 240 317	2-chloro-1,3-dimethylimidazolinium chloride (1) (21.2 g, 125 mmol, 1.0 equiv)
+T9	REACTION_STEP 447 452	added
+T10	ENTITY 422 443	60 mL of acetonitrile
+T26	ENTITY 63 104	An oven-dried 250-mL round-bottomed flask
+T30	ENTITY 322 381	potassium hexafluorophosphate (23.1 g, 126 mmol, 1.0 equiv)
+T33	ENTITY 484 495	The mixture
+R1	ARGM Arg1:T1 Arg2:T2
+R2	ARGM Arg1:T1 Arg2:T3
+R5	ARG2 Arg1:T7 Arg2:T8
+R6	ARG1 Arg1:T9 Arg2:T10
+R14	ARG1 Arg1:T7 Arg2:T26
+R15	ARG2 Arg1:T7 Arg2:T30
+R16	ARG1 Arg1:T1 Arg2:T33
