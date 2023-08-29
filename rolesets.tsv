@@ -1,0 +1,49 @@
+event	ARG1	ARG2	ARG0	PropBank (same or refer)
+activate	thing activated			activate.01
+add	thing added	thing added to		add.02
+backfill	thing backfilled	thing backfilled with
+change	thing changed	thing changed to
+charge	thing charged	thing charged with
+chill	thing chilled	instrument
+collect	thing collected	thing collected in
+combine	thing combined			combine.01
+contain	contents		container	contain.01
+cool	thing cooled	instrument		cool.01
+degas	thing degassed
+dilute	thing diluted	thing diluted with
+dissolve	thing dissolved	liquid		dissolve.01
+distill	thing distilled			distill.01
+fill	thing filled	thing filled with		fill.01
+flush	target	liquid or gas
+heat	thing heated	instrument		heat.01
+hold	thing held			hold.11
+immerse	thing immersed	thing immersed in		immerse.01
+increase	thing increased	end point		increase.01
+inject	thing injected	place injected into		inject.01
+introduce	thing introduced	place introduced into		introduce.01
+keep	thing kept			keep.01
+load	thing loaded	thing loaded with
+maintain	thing maintained			maintain.01
+melt	thing melted			melt.01
+mix	thing mixed			mix.01
+open	thing opened			open.01
+place	thing put	where put		place.01
+pour	thing poured	thing poured into		pour.01
+pour off	thing poured off
+prepare	thing prepared	thing prepared in
+protect 	thing protected	thing protected from		protect.01
+purge	thing purged	thing purged with
+raise	thing raised			raise.01
+reflux	thing refluxed
+remove	thing removed	thing removed from		remove.01
+replace	old thing	new thing		replace.01
+rinse	thing rinsed	thing rinsed with
+stir	thing stirred			stir.01
+swirl	thing swirled
+transfer	thing transferred	thing transferred to		transfer.01
+use	thing used			use.01
+warm	thing warmed	instrument
+wash	thing washed	liquid		wash.01
+wrap	thing wrapped	thing wrapped in		wrap.01
+re-cool	thing recooled	instrument		cool.01
+re-charge	thing recharged	thing recharged with
