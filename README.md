@@ -22,8 +22,8 @@ We also provide another version of data `data_revised_2023-06-29` because we fin
 │   ├── OSPAR
 │   └── OSPAR_synthesis_text_only
 ├── data_revised_2023-06-29
-│   ├── OSPAR
-│   └── OSPAR_synthesis_text_only
+    ├── OSPAR
+    └── OSPAR_synthesis_text_only
 ```
 
 `OSPAR`
