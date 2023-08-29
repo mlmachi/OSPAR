@@ -1,4 +1,4 @@
-event	ARG1	ARG2	ARG0	PropBank (same or refer)
+Roleset	ARG1	ARG2	ARG0	PropBank (the same or refer)
 activate	thing activated			activate.01
 add	thing added	thing added to		add.02
 backfill	thing backfilled	thing backfilled with
