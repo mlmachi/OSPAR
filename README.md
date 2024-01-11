@@ -1,6 +1,6 @@
-# OSPAR: A Corpus for Extraction of Organic Synthesis Procedure with Argument Roles
+# OSPAR: A Corpus for Extraction of Organic Synthesis Procedures with Argument Roles
 
-This repository contains data for the JCIM paper: [OSPAR: A Corpus for Extraction of Organic Synthesis Procedure with Argument Roles](URL).
+This repository contains data for the JCIM paper: [OSPAR: A Corpus for Extraction of Organic Synthesis Procedure with Argument Roles](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01449).
 
 ## OSPAR corpus
 
