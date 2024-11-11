@@ -38,4 +38,4 @@ We also provide another version of data `data_revised_2023-06-29` because we fin
 The rolesets used in OSPAR are provided in `rolesets.tsv`.
 
 ## Contact
-If you have any questions and suggestions, please create an issue or email to [machi@eis.hokudai.ac.jp](mailto:machi@eis.hokudai.ac.jp).
+If you have any questions and suggestions, please create an issue or email to [ospar@ist.hokudai.ac.jp](mailto:ospar@ist.hokudai.ac.jp).
